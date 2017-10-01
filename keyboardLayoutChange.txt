@@ -8,3 +8,6 @@ Solution - https://www.raspberrypi.org/forums/viewtopic.php?t=80127
 From the terminal, i ran the command "sudo raspi-config" and in the "Localisation Options", found the option to change the "chnage Keyboard Layout".
 
 I had to select the keyboard manufacturer and then selecting the US type worked for me.
+
+
+I did not need to reboot the pi for updating the changes. Although in instructions it was written to reboot.
