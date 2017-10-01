@@ -1,0 +1,18 @@
+I have connected the pi to the TV via an HDMI cable.
+
+
+There was no sound coming from the pi when I played anything.
+
+
+I searched for the solution and found this link - 
+
+https://raspberrypi.stackexchange.com/questions/32971/raspbian-no-audio-hdmi-have-tried-all-the-troubleshooting-i-can-find/56674#56674?newreg=4542b50a5425468d9c8ff42691555d14
+
+
+This link asks to edit the config.txt file found in the boot partition.
+
+Go to /boot/ directory. And use you favorite editor (vi etc.) to remove the "#" symbol if it is there from the line which says - hdmi_drive=2
+
+Reboo the pi, with command "sudo reboot"
+
+Pi will reboot and then play sound to check if it works. (it worked for me)
