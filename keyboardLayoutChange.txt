@@ -1,0 +1,10 @@
+I noticed that i was not able to type "@" symbol and "#" from my keyoard to the pi, but it was working fine with my laptop.
+
+
+I searched about this problem and found that this may be a keyboard layout problem.
+
+Solution - https://www.raspberrypi.org/forums/viewtopic.php?t=80127
+
+From the terminal, i ran the command "sudo raspi-config" and in the "Localisation Options", found the option to change the "chnage Keyboard Layout".
+
+I had to select the keyboard manufacturer and then selecting the US type worked for me.
